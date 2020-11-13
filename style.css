@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  align-items: stretch;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  margin-right: 2rem;
+}
+  .wrapper .content {
+    flex-grow: 2;
+  }
+  
+  img {
+    width:100%;
+  }
+  
